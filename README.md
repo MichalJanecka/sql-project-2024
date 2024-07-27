@@ -18,6 +18,6 @@ odkaz na průvodní listinu
 
 ## Section 4: About me
 **Name**: *Michal Janecka*
-Get in touch via [LinkedIn] (https://www.linkedin.com/in/michal-janecka/) or :email: janecka94@gmail.com
+Get in touch via [LinkedIn](https://www.linkedin.com/in/michal-janecka/) or :email: janecka94@gmail.com
 
 
