@@ -1,5 +1,5 @@
 # SQL project (2024)
-The repository for the SQL project of Data Academy online course (ENGETO)
+The repository for the SQL project of Data Academy online course (ENGETO)  
 For :czech_republic:, please scroll :arrow_down:
 
 ---
@@ -17,7 +17,7 @@ The repository offers the following files:
 odkaz na průvodní listinu
 
 ## Section 4: About me
-**Name**: *Michal Janecka*
-Get in touch via [LinkedIn](https://www.linkedin.com/in/michal-janecka/) or :email: janecka94@gmail.com
+**Name**: *Michal Janecka*  
+Get in touch via [LinkedIn] (https://www.linkedin.com/in/michal-janecka/) or :email: janecka94@gmail.com
 
 
