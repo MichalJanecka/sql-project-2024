@@ -16,6 +16,7 @@ For direct access to the results please click :arrow_right: [ENG: Accompanying d
 
 ## Section 4: About me
 **Name**: *Michal Janecka*  
-Feel free to get in touch via [LinkedIn](https://www.linkedin.com/in/michal-janecka/) or :email: janecka94@gmail.com
+Feel free to get in touch via [LinkedIn](https://www.linkedin.com/in/michal-janecka/) or :email: janecka94@gmail.com  
+Discord: michaljanecka (Michal J.)
 
 
