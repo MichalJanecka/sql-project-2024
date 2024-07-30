@@ -9,14 +9,13 @@ Welcome to the repository that represents the output of a three-month (April-Jul
 ## Section 2: Structure
 The repository offers the following files:
 * SQL files
-* Accompanying document (including results; only in :czech_republic:)
-* Answers to the research questions
+* Accompanying document (including results; only in :czech_republic: language)
 
 ## Section 3: Results
-For direct access to the results please click here
+For direct access to the results please click :arrow_right:
 
 ## Section 4: About me
 **Name**: *Michal Janecka*  
-Get in touch via [LinkedIn](https://www.linkedin.com/in/michal-janecka/) or :email: janecka94@gmail.com
+Feel free to get in touch via [LinkedIn](https://www.linkedin.com/in/michal-janecka/) or :email: janecka94@gmail.com
 
 
