@@ -1,4 +1,4 @@
--- Vytvoření tabulky
+-- Table 2: creation
 CREATE OR REPLACE TABLE t_michal_janecka_project_SQL_secondary_final AS
 	SELECT *
 	FROM v_michal_yoy_price_growth vmypg 
@@ -7,7 +7,7 @@ CREATE OR REPLACE TABLE t_michal_janecka_project_SQL_secondary_final AS
 	JOIN economies
 	ON vmywg.payroll_year = economies.`year`;
 
--- Korelace růstu HDP, mezd a cen potravin 
+-- Correlation of GDP growth, average gross wages and food prices
 SELECT 
 	country,
 	selected_year,

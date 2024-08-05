@@ -1,22 +1,22 @@
--- Průměrná cena potravin v letech 2006-2018
+-- Average food prices (2006-2018)
 CREATE OR REPLACE VIEW v_michal_yoy_price_growth AS 
 SELECT
 	YEAR(date_from) AS selected_year,
-	round(avg(price), 1) AS average_price
+	ROUND(AVG(price), 1) AS average_price
 FROM t_michal_janecka_project_SQL_primary_final
 GROUP BY YEAR(date_from);
 
--- Průměrná výše mzdy v letech 2006-2018
+-- Average gross wages (2006-2018)
 CREATE OR REPLACE VIEW v_michal_yoy_wage_growth AS 
 SELECT 
 	payroll_year,
-	round(avg(average_wage),0) AS average_wage
+	ROUND(AVG(average_wage),0) AS average_wage
 FROM t_michal_janecka_project_SQL_primary_final
 WHERE industry IS NOT NULL AND payroll_year BETWEEN 2006 AND 2018
 GROUP BY payroll_year
 ORDER BY average_wage; 
 
--- Meziroční srovnání (%) růstu cen potravin a mezd
+-- Year-on-year comparison (%) of food prices and wage growth
 SELECT 
 	vmypg.selected_year,
 	vmypg.average_price,

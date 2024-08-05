@@ -1,23 +1,23 @@
--- Průměrná cena položek v daném roce 
+-- Average price of food categories in a given year (2006-2018)
 SELECT
 	food_code,
 	YEAR(date_from) AS selected_year,
-	round(avg(price), 1) AS avg_price
+	ROUND(AVG(price), 1) AS avg_price
 FROM t_michal_janecka_project_SQL_primary_final
 GROUP BY food_code, YEAR(date_from)
 ORDER BY food_code, selected_year;
 
--- View pro návazný výpočet meziročního vývoje 
+-- View for subsequent calculation of year-on-year comparison
 CREATE OR REPLACE VIEW v_michal_yoy_growth AS
 SELECT
 	food_code,
 	YEAR(date_from) AS selected_year,
-	round(avg(price), 1) AS avg_price
+	ROUND(AVG(price), 1) AS avg_price
 FROM t_michal_janecka_project_SQL_primary_final 
 GROUP BY food_code, YEAR(date_from)
 ORDER BY food_code, selected_year;
 
--- Meziroční srovnání
+-- Year-on-year comparison
 SELECT 
 	food_code,
 	selected_year,
