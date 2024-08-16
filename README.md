@@ -12,7 +12,7 @@ The repository offers the following files:
 * Accompanying document (including results; only in :czech_republic: language)
 
 ## Section 3: Results
-For direct access to the results please click :arrow_right: [ENG: Accompanying document/CZE: Pruvodni listina](https://github.com/MichalJanecka/sql-project-2024/blob/main/Pr%C5%AFvodn%C3%AD%20listina_SQL_Michal%20Jane%C4%8Dka.pdf)
+For direct access to the results please click :arrow_right: [ENG: Accompanying document/CZE: Pruvodni listina](https://github.com/MichalJanecka/sql-project-2024/blob/main/Accompanying%20document_SQL_Michal%20Jane%C4%8Dka.pdf)
 
 ## Section 4: About me
 **Name**: *Michal Janecka*  
