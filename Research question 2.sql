@@ -1,6 +1,6 @@
 -- Codes for food categories (bread and milk)
 SELECT 
-	food_category,
+	DISTINCT food_category,
 	food_code
 FROM t_michal_janecka_project_SQL_primary_final;
 
